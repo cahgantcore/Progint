@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daftar_majalah>
+  <majalah>
+    <Judul>National Geographic</Judul>
+    <Halaman>30</Halaman>
+  </majalah>
+  <majalah>
+    <Judul>Time</Judul>
+    <Halaman>20</Halaman>
+  </majalah>
+  <majalah>
+    <Judul>Inc</Judul>
+    <Halaman>55</Halaman>
+  </majalah>
+  <majalah>
+    <Judul>Bloomberg</Judul>
+    <Halaman>20</Halaman>
+  </majalah>
+  <majalah>
+    <Judul>Wired</Judul>
+    <Halaman>30</Halaman>
+  </majalah>
+  <majalah>
+    <Judul>Rolling Stone</Judul>
+    <Halaman>55</Halaman>
+  </majalah>
+</daftar_majalah>
