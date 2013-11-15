@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daftar_buku>
+  <buku>
+    <Judul>Laskar Pelangi</Judul>
+    <Halaman>530</Halaman>
+  </buku>
+  <buku>
+    <Judul>The Da Vinci Code</Judul>
+    <Halaman>920</Halaman>
+  </buku>
+  <buku>
+    <Judul>Supernova</Judul>
+    <Halaman>660</Halaman>
+  </buku>
+  <buku>
+    <Judul>Badai Pasti Berlalu</Judul>
+    <Halaman>530</Halaman>
+  </buku>
+  <buku>
+    <Judul>The Bear and The Dra</Judul>
+    <Halaman>660</Halaman>
+  </buku>
+  <buku>
+    <Judul>Inferno</Judul>
+    <Halaman>920</Halaman>
+  </buku>
+</daftar_buku>
