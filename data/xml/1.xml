@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<daftar_koran>
+	<koran>
+		<Judul>Kompas</Judul>
+		<Halaman>75</Halaman>
+	</koran>
+	<koran>
+		<Judul>Pikiran Rakyat</Judul>
+		<Halaman>51</Halaman>
+	</koran>
+	<koran>
+		<Judul>Tempo</Judul>
+		<Halaman>50</Halaman>
+	</koran>
+	<koran>
+		<Judul>Sindo</Judul>
+		<Halaman>75</Halaman>
+	</koran>
+	<koran>
+		<Judul>Media Indonesia</Judul>
+		<Halaman>35</Halaman>
+	</koran>
+	<koran>
+		<Judul>Jawa Pos</Judul>
+		<Halaman>35</Halaman>
+	</koran>
+</daftar_koran>
