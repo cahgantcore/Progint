@@ -1,9 +1,10 @@
 <?php
+	
 
 	$dbh = new PDO('mysql:host=localhost;dbname=progint','root','');
 
 	$sxe = new SimpleXMLElement('<daftar_buku></daftar_buku>');
-	// $sxe_crs = $sxe->addChild('contentResponses');
+	//$sxe_crs = $sxe->addChild('contentResponses');
 
 	function array_walk_simplexml(&$value, $key, &$sx) {
 	    $sx->addChild($key, $value);
@@ -26,18 +27,11 @@
 
 	$sqltoxml = $dom->saveXML();
 	$dom->save("./data/sqltoxml.xml"); 
-?>
-	<div>
-		<textarea cols="50" rows="30">
-			<?php 
-				echo "\n";
-				echo file_get_contents("./data/sqltoxml.xml");
-			?>
-		</textarea>
-	</div>
 
-	<a href="sqlmore.php">Pencarian Informasi Lanjut</a>
-	<br>
-	<a href="index.php">Kembali ke Home</a>
+	header("Content-type: text/xml");
+	$xmlDoc = new DOMDocument();
+	$xmlDoc->load("./data/sqltoxml.xml");
+	print $xmlDoc->saveXML();
+?>
 
 	
