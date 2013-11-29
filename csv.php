@@ -40,15 +40,9 @@
 
 	$doc->save("./data/csvtoxml.xml");
 ?>
-	<div>
-		<textarea cols="50" rows="30">
-			<?php
-				echo "\n"; 
-				echo file_get_contents("./data/csvtoxml.xml"); 
-			?>
-		</textarea>
-	</div>
-	
-	<a href="csvmore.php">Pencarian Informasi Lanjut</a>
-	<br>
-	<a href="index.php">Kembali ke Home</a>
+<?php
+	header('Content-type: application/xml');
+	$xmlDoc = new DOMDocument();
+	$xmlDoc->load("./data/csvtoxml.xml");
+	print $xmlDoc->saveXML();
+?>
